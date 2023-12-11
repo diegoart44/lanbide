@@ -1,0 +1,122 @@
+.Info-wrapper {
+    display: flex;
+    background: linear-gradient(to right, rgba(59, 66, 74, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* I think the background color is a gradient using this color: 3b424a  */
+  }
+  
+/* Left Column */
+  .Info-wrapper .info-left-column {
+    flex: 1;
+    padding: 150px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
+  
+  .Info-wrapper .info-left-column h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    padding-right: 200px;
+    color: #dde0e4;
+  }
+  
+  .Info-wrapper .info-left-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding-right: 150px;
+    color: #bababa;
+  }
+
+  
+
+
+
+
+
+
+
+/* Buttons  */
+ .Info-wrapper > .info-left-column > .info-button-container {
+    margin-top: 75px;
+    font-size: 2rem;
+    letter-spacing: -2px;
+  }
+  
+  .Info-wrapper .info-button1 {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: #72cb81;
+    color: black;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .Info-wrapper .info-button1:hover {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: black;
+    color: #72cb81;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+  .Info-wrapper .info-button2 {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  .Info-wrapper .info-button2:hover {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+
+
+
+
+
+
+/* Right Column */
+.Info-wrapper .info-right-column {
+    flex: 1;
+    padding: 111px 0px 0px 0px;
+    text-align: left;
+}
+  
+  .Info-wrapper .info-right-column h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .Info-wrapper .info-right-column h2 .info-right-column-highlight-text1 {
+    color: white;
+  }
+  
+
+  .Info-wrapper .info-right-column h2 .info-right-column-highlight-text2 {
+    color: #8ad2f7;
+  }
+  
+
+  .Info-wrapper .info-right-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
